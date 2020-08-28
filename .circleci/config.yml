@@ -6,7 +6,7 @@ jobs:
     executor:
       name: node/default
       tag: '10.4'
-    steps:
+    ssds:
       - checkout
       - node/with-cache:
           steps:
