@@ -7,6 +7,3 @@ jobs:
     steps:
       - checkout
       - run: Write-Host 'Hello, Windows'
-Note: For Windows builds, some setup and prerequisites are different. Please refer to our Hello World on Windows.
-
-More About Using and Authoring Orbs
