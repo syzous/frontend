@@ -10,12 +10,10 @@ jobs:
       - checkout
       - run:
           name: install dependencies
-          command:
-            npm install
+          command: npm install
       - run:
           name: build 
-          command: 
-            npm run buid
+          command: npm run buid
       - aws-s3/sync:
         from: build
         to: 's3://my-s3-bucket-genki/'
