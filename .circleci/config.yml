@@ -13,7 +13,7 @@ jobs:
           command: npm install
       - run:
           name: build 
-          command: npm run buid && ls -a
+          command: npm run build && ls -a
       # - aws-s3/sync:
       #     from: build
       #     to: 's3://my-s3-bucket-genki/'
